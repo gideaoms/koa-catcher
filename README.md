@@ -24,7 +24,7 @@ server.listen(3000)
 
 ### Return
 ```json
-{ message: 'Internal Server Error' }
+{ "message": "Internal Server Error" }
 ```
 
 ## Author
