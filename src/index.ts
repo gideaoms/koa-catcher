@@ -1,6 +1,6 @@
 import { Context, Next } from 'koa'
 
-const catcher = ({ debug = false, message = '' }) => async (ctx: Context, next: Next) => {
+const catcher = ({ debug = false, message = '' } = {}) => async (ctx: Context, next: Next) => {
   try {
     await next()
   } catch (error) {
