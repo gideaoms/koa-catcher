@@ -1,8 +1,9 @@
 {
   "name": "koa-catcher",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "build/index.js",
   "license": "MIT",
+  "keywords": ["koa", "catcher", "json"],
   "author": {
     "name": "Gideão MS"
   },
