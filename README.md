@@ -10,6 +10,11 @@ npm install --save koa-catcher
 
 *We use console.info to show the errors if you pass debug as true*
 
+*We emit the errors in case you want to listen them:*
+```js
+ctx.app.emit('error', error, ctx)
+```
+
 ### Example
 ```js
 const Koa = require('koa')
