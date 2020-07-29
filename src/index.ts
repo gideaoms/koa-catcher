@@ -1,8 +1,8 @@
 import { Context, Next } from 'koa'
 
 type CatcherOpts = {
-  debug: boolean
-  message: string
+  debug?: boolean
+  message?: string
 }
 
 const catcher = (opts?: CatcherOpts) =>

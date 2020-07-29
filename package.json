@@ -8,7 +8,9 @@
     "name": "Gideão MS"
   },
   "types": "build",
+  "files": ["build"],
   "scripts": {
+    "prepublishOnly": "yarn build",
     "build": "tsc"
   },
   "devDependencies": {
